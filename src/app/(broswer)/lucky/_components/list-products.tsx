@@ -1,6 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import CardProduct from "./card-product";
@@ -8,7 +9,7 @@ import { PaginationView } from "@/components/pagination-view";
 import { TProductResponse } from "@/schema/product.schema";
 import PaginationFilter from "@/components/pagination-filter";
 import { TTableResponse } from "@/types/Table";
-import { useSearchParams } from "next/navigation";
+
 type Product = {
   id: number;
   name: string;
@@ -31,27 +32,19 @@ type Props = {
 };
 
 const ListProducts = ({ dataSource, params }: Props) => {
-  const searchParams = useSearchParams();
-  const baseModelId = searchParams.get("baseModelId");
-  console.log("baseModelId", baseModelId);
-  const listByBaseModel = baseModelId
-    ? dataSource.listResult.filter((item) => item.baseModelID === baseModelId)
-    : dataSource.listResult;
   return (
     <>
       {dataSource.listResult.length > 0 ? (
         <>
           <div className="grid grid-cols-1 md:grid-cols-3 items-center">
-            {listByBaseModel.map((item, index) => (
+            {dataSource.listResult.map((item, index) => (
               <CardProduct key={index} item={item} index={index} />
             ))}
           </div>
-          {!baseModelId && (
-            <PaginationFilter
-              page={params.page}
-              totalPage={dataSource.totalPage}
-            />
-          )}
+          <PaginationFilter
+            page={params.page}
+            totalPage={dataSource.totalPage}
+          />
         </>
       ) : (
         <div className="flex flex-col justify-center items-center w-full h-[350px]">
