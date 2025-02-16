@@ -8,17 +8,14 @@ export const headerPaths = [
     label: "SẢN PHẨM",
   },
   {
-    link: "/design",
-    label: "THIẾT KẾ",
+    link: "/lucky",
+    label: "TÚI MÙ",
   },
   {
     link: "/blogs",
     label: "BLOG",
   },
-  // {
-  //   link: "/services",
-  //   label: "DỊCH VỤ",
-  // },
+
   {
     link: "/about",
     label: "CONTACT",
