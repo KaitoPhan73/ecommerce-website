@@ -12,13 +12,14 @@ export const headerPaths = [
   //   label: "THIẾT KẾ",
   // },
   {
+    link: "/lucky",
+    label: "TÚI MÙ",
+  },
+  {
     link: "/blogs",
     label: "BLOG",
   },
-  // {
-  //   link: "/services",
-  //   label: "DỊCH VỤ",
-  // },
+
   {
     link: "/about",
     label: "CONTACT",

@@ -15,7 +15,6 @@ import Cart from "./cart";
 import UserHeader from "./user-header";
 
 export default function Header() {
-  const router = useRouter();
   return (
     <div className="w-full mx-auto px-4 md:px-6 lg:px-8 fixed z-10 top-0 bg-white dark:bg-black">
       <header className="flex h-20 w-full shrink-0 items-center px-4 md:px-6">
@@ -46,7 +45,7 @@ export default function Header() {
           </SheetContent>
         </Sheet>
 
-        <Link href="/" className="mr-6 hidden lg:flex" prefetch={false}>
+        <Link href="/design" className="mr-6 hidden lg:flex">
           <Icon className="h-30 w-20 dark:filter dark:invert" />
           <span className="sr-only">ShadCN</span>
         </Link>
@@ -104,7 +103,6 @@ function MenuIcon(props: any) {
 function Icon(props: any) {
   return (
     <div className="flex items-center">
-      {/* <Link href={item.link}> */}
       <Image
         priority
         src="/card/logo.png"
