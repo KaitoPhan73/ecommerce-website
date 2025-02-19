@@ -14,7 +14,7 @@ const DesignIntroduction = () => {
   const sectionStyle = isDesktop
     ? {}
     : {
-        backgroundImage: "url('/images/bag-1.jpg')",
+        backgroundImage: "url('card/benzema.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       };
@@ -46,7 +46,7 @@ const DesignIntroduction = () => {
           </div>
         </div>
         <div className="mt-4 flex justify-center md:justify-start">
-          <Button onClick={() => router.push("/design")}>
+          <Button onClick={() => router.push("/products")}>
             Thiết kế theo phong cách của bạn
             <FaArrowRight className="ml-2 h-4 w-4" />
           </Button>
@@ -54,7 +54,7 @@ const DesignIntroduction = () => {
       </div>
       <div className="flex-shrink-0 mt-8 md:mt-0 hidden md:block">
         <Image
-          src="/images/bag-1.jpg"
+          src="/card/benzema.jpg"
           alt="bag-1"
           width={400}
           height={400}

@@ -27,35 +27,36 @@ export const services = [
   },
 ];
 
-export const homepageList = [
+export const homepageList  = [
   {
-    title: "Các Dòng Túi Nổi Bật",
+    title: "Bộ Sưu Tập Đặc Sắc",
     icon: MdOutlineScubaDiving,
     description:
-      "Trải nghiệm các loại mẫu sản phẩm đa dạng và đầy màu sắc thú vị.",
+      "Khám phá những bộ sưu tập thẻ bài đa dạng từ thể thao, anime đến nhân vật huyền thoại.",
     image:
-      "https://i.pinimg.com/736x/31/c8/e4/31c8e44217971fa28a82c0a71be7245e.jpg",
+      "/card/naruto.jpg",
     link: "/products",
   },
   {
-    title: "Sáng Tạo Phong Cách Riêng",
+    title: "Thiết Kế Thẻ Cá Nhân",
     icon: FaDisease,
     description:
-      "Khám phá các mô hình tự thiết kế để có thể thõa mãn sự sáng tạo của bản thân.",
+      "Tự tạo phong cách riêng với các mẫu thẻ bài độc đáo, từ ý tưởng đến sản phẩm hoàn chỉnh.",
     image:
-      "https://i.pinimg.com/736x/cd/a5/ea/cda5ea6ef22739ed0c3b1bef56d90456.jpg",
-    link: "/design",
+      "/card/dragon.jpg",
+    link: "/blog",
   },
   {
-    title: "Dịch Vụ Chăm Sóc Khách Hàng",
+    title: "Dịch Vụ & Hỗ Trợ",
     icon: FcManager,
     description:
-      "Đi song song với các sản phẩm thì chú trọng về dịch vụ chăm sóc khách hàng là điều cốt lõi trong quy tắc bán hàng của chúng tôi.",
+      "Đội ngũ của chúng tôi luôn sẵn sàng hỗ trợ bạn trong việc tìm kiếm, mua bán và bảo quản thẻ bài.",
     image:
-      "https://i.etsystatic.com/32479513/r/il/37406b/4413285919/il_570xN.4413285919_fflr.jpg",
+      "/card/benzema.jpg",
     link: "/about",
   },
 ];
+
 
 export const products = [
   {

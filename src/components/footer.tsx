@@ -19,18 +19,18 @@ const Footer = () => {
             <Icon className="h-180 w-80 dark:filter dark:invert" />
             <div className="text-lg max-w-xl ml-4">
               <h2 className="text-2xl font-semibold mb-4">
-                Trải nghiệm tuyệt vời với KALBAN
+                Trải nghiệm tuyệt vời với CARD DIVERSE
               </h2>
               <p>
-                Khám phá vẻ đẹp của các sản phẩm túi xanh và những thiết kế độc
+                Khám phá vẻ đẹp của các sản phẩm và những thiết kế độc
                 đáo. Chúng tôi cung cấp thông tin chi tiết và hướng dẫn lựa chọn
-                các túi phù hợp nhất cho nhu cầu của bạn.
+                các thẻ phù hợp nhất cho nhu cầu của bạn.
               </p>
             </div>
           </div>
         </div>
         <div className="mt-8 md:mt-0 md:w-1/5">
-          <h3 className="text-2xl font-semibold mb-4">Thương hiệu KALBAN</h3>
+          <h3 className="text-2xl font-semibold mb-4">Thương hiệu CARD DIVERSE</h3>
           <ul>
             <li className="flex gap-2 items-center mb-2">
               <FaPhoneAlt className="h-6 w-6 text-green-400" />
@@ -46,7 +46,7 @@ const Footer = () => {
             <li className="flex gap-2 items-center mb-2">
               <MdOutlineMail className="h-6 w-6 text-green-400" />
               <p className="text-gray-600 dark:text-white">
-                longdhpse171112@fpt.edu.vn
+                quangnm171112@fpt.edu.vn
               </p>
             </li>
           </ul>
@@ -98,7 +98,7 @@ function Icon(props: any) {
     <div className="flex items-center">
       <Image
         priority
-        src="/svgs/kalban-logo.svg"
+        src="/card/logo.png"
         height={32}
         width={32}
         alt="Kalban-logo"

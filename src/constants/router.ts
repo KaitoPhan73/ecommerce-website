@@ -7,10 +7,10 @@ export const headerPaths = [
     link: "/products",
     label: "SẢN PHẨM",
   },
-  {
-    link: "/design",
-    label: "THIẾT KẾ",
-  },
+  // {
+  //   link: "/design",
+  //   label: "THIẾT KẾ",
+  // },
   {
     link: "/blogs",
     label: "BLOG",

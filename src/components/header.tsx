@@ -107,14 +107,15 @@ function Icon(props: any) {
       {/* <Link href={item.link}> */}
       <Image
         priority
-        src="/svgs/kalban-logo.svg"
+        src="/card/logo.png"
         height={0}
         width={0}
-        alt="Kalban-logo"
+        alt="CARD-DIVERSE-logo"
         {...props}
+        style={{ filter: "brightness(0.8) contrast(1)" }} // Điều chỉnh giá trị phù hợ
         href=""
       />
-      <p className="text-lg font-semibold lig">KALBAN</p>
+      <p className="text-lg font-semibold lig">CARD DIVERSE</p>
       {/* </Link> */}
     </div>
   );
