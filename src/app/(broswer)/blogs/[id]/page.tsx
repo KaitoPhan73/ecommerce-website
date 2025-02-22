@@ -75,7 +75,9 @@ const BlogDetail = ({ params }: { params: { id: string } }) => {
                   .slice(0, 3)
                   .map((item) => (
                     <div key={item.id} className="mb-4">
-                      <h2 className="text-lg font-semibold my-2">{item.name}</h2>
+                      <h2 className="text-lg font-semibold my-2">
+                        {item.name}
+                      </h2>
                       <div className="text-right mt-2">
                         <span className="text-sm text-gray-500 dark:text-white">
                           {item.createdDate}
