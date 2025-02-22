@@ -7,8 +7,8 @@ import { Toaster as ToasterSonner } from "@/components/ui/sonner";
 import { ReactQueryClientProvider } from "@/provider/queryClient";
 
 export const metadata: Metadata = {
-  title: "Green Bag",
-  description: "Túi",
+  title: "Card Diverse",
+  description: "Card Diverse",
 };
 
 export default function RootLayout({

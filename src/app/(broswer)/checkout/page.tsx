@@ -1,3 +1,5 @@
+"use client"
+
 import PageTitle from "@/components/page-tittle";
 import dynamic from "next/dynamic";
 const CheckoutForm = dynamic(() => import("./_components/checkout"), {

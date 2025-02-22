@@ -5,7 +5,7 @@ import Gallery from "../_components/gallery";
 import Blog from "../_components/blog";
 import ContactUs from "../_components/contact-us";
 import DesignIntroduction from "../_components/design-introduction";
-import { QueryClient, QueryClientProvider } from "react-query";
+// import { QueryClient, QueryClientProvider } from "react-query";
 
 export default function Home() {
   // const a =
@@ -22,7 +22,7 @@ export default function Home() {
           <DesignIntroduction />
           <Services />
           {/* <Testimonials /> */}
-          {/* <Gallery /> */}
+          <Gallery />
           <Blog />
           <ContactUs />
         </div>
