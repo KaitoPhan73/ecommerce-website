@@ -4,8 +4,6 @@ import {
   FaFacebook,
   FaInstagram,
   FaPhoneAlt,
-  FaTwitter,
-  FaYoutube,
 } from "react-icons/fa";
 import { GrMapLocation } from "react-icons/gr";
 import { MdOutlineMail } from "react-icons/md";
@@ -93,6 +91,7 @@ const Footer = () => {
   );
 };
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function Icon(props: any) {
   return (
     <div className="flex items-center">

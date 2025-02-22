@@ -10,6 +10,7 @@ import { dataBlogs } from "@/constants/data";
 import { formatDate } from "@/lib/utils";
 import { useRouter } from "next/navigation";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const posts = [
   {
     title: "Bảo tồn san hô",

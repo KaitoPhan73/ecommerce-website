@@ -9,8 +9,8 @@ import {
 } from "@/components/ui/navigation-menu";
 import { headerPaths } from "@/constants/router";
 import Image from "next/image";
-import { ModeToggle } from "./mode-toggle";
-import { useRouter } from "next/navigation";
+// import { ModeToggle } from "./mode-toggle";
+// import { useRouter } from "next/navigation";
 import Cart from "./cart";
 import UserHeader from "./user-header";
 
@@ -111,7 +111,6 @@ function Icon(props: any) {
         alt="CARD-DIVERSE-logo"
         {...props}
         style={{ filter: "brightness(0.8) contrast(1)" }} // Điều chỉnh giá trị phù hợ
-        href=""
       />
       <p className="text-lg font-semibold lig">CARD DIVERSE</p>
       {/* </Link> */}
