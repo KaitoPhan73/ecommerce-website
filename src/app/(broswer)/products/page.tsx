@@ -4,6 +4,7 @@ import ListProducts from "./_components/list-products";
 import { getAllProductsForUser } from "@/api/product";
 import { getAllCategoriesActive } from "@/api/category";
 import ProductFilter from "./_components/product-filter";
+import { getAllBaseModelsActive } from "@/api/base-model";
 const page = async (props: any) => {
   const params = {
     page: props.searchParams.page ? +props.searchParams.page : 1,
@@ -11,14 +12,25 @@ const page = async (props: any) => {
     minPrice: props.searchParams.minPrice && props.searchParams.minPrice,
     maxPrice: props.searchParams.maxPrice && props.searchParams.maxPrice,
     name: props.searchParams.name && props.searchParams.name,
+    baseModelId:
+      props.searchParams.baseModelId && props.searchParams.baseModelId,
   };
-  const productResponse = await getAllProductsForUser(params);
-  console.log("productResponse", productResponse);
-  // console.log("productResponse", productResponse.payload);
+  const productData = getAllProductsForUser(params);
+  const baseModelData = getAllBaseModelsActive();
+
+  // Initiate both requests in parallel
+  const [productResponse, baseModelResponse] = await Promise.all([
+    productData,
+    baseModelData,
+  ]);
+
   return (
     <section className="flex flex-1 gap-8 mb-8">
       <div className="w-[20%]">
-        <ProductFilter params={params} />
+        <ProductFilter
+          params={params}
+          dataBaseModelSource={baseModelResponse.payload}
+        />
       </div>
       <div className="mt-14 flex-1 px-2">
         <ListProducts dataSource={productResponse.payload} params={params} />
