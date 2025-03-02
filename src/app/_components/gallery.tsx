@@ -2,9 +2,9 @@ import Image from "next/image";
 import React from "react";
 
 const images = [
-  "https://cf.bstatic.com/xdata/images/hotel/max1024x768/513285394.jpg?k=527086dd973e9b8c3285380b0c715ea25d1a4eaad11b180359f7e71a9eb49690&o=&hp=1",
-  "https://file.hstatic.net/1000030244/file/thuc-don-cac-mon-hai-san-binh-dan-daohaisan7_c3da6c51e5a54ec3b5955f7a9fecd822_1024x1024.jpg",
-  "https://cdn-i.vtcnews.vn/files/f2/2015/02/02/nhung-khung-canh-hen-ho-lang-man-cho-ngay-valentine-2.jpg",
+  "https://upload.wikimedia.org/wikipedia/en/8/8b/Magic_the_gathering-card_back.jpg",
+  "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
+  "https://upload.wikimedia.org/wikipedia/commons/5/5e/Lionel_Messi_WC2022.jpg",
 ];
 
 const Gallery = () => {
