@@ -1,8 +1,5 @@
 import PageTitle from "@/components/page-tittle";
-import dynamic from "next/dynamic";
-const CheckoutCustomForm = dynamic(() => import("./_components/checkout"), {
-  ssr: false,
-});
+
 const page = () => {
   return (
     <div>
