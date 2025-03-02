@@ -12,9 +12,12 @@ const BlogDetail = ({ params }: { params: { id: string } }) => {
   }
 
   const allTags = blog.posts.reduce<string[]>((acc, post) => {
-    acc.push(...post.tags);
+    if (post.tags && Array.isArray(post.tags)) {
+      acc.push(...post.tags);
+    }
     return acc;
   }, []);
+  
 
   return (
     <div className="p-4 mx-64">
