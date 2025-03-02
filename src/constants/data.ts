@@ -136,82 +136,104 @@ export const products = [
 export const dataBlogs = [
   {
     id: 1,
-    name: "Tại sao nên sưu tập thẻ bài Pokemon?",
+    name: "Chào mừng đến với Cardsdiverse!",
     description:
-      "Trong thời đại số hóa, việc sưu tập thẻ bài Pokemon vẫn là một xu hướng được yêu thích trên toàn thế giới. Không chỉ là một sở thích, việc sưu tập thẻ Pokemon còn mang lại nhiều giá trị đầu tư và niềm vui. Hãy cùng khám phá tại sao bạn nên bắt đầu sưu tập thẻ Pokemon ngay từ hôm nay!",
-    author: "An-Thien",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+      "Xin chào các bạn! 👋✨ Chúng tôi là Cardsdiverse – chào mừng bạn đến với thế giới của những chiếc thẻ cầu thủ bóng đá! Cùng khám phá và sưu tầm những tấm thẻ in hình các siêu sao sân cỏ với đầy đủ thông tin, chỉ số và cả chữ ký đặc biệt.",
+    author: "Cardsdiverse Team",
+    image: "/blog-images/3-1.jpg",
     createdDate: "2024-01-15",
     posts: [
       {
-        id: 101,
-        title: "Giá trị đầu tư lâu dài",
-        content: "Thẻ Pokemon không chỉ là món đồ sưu tập mà còn là kênh đầu tư tiềm năng. Nhiều thẻ hiếm có giá trị tăng theo thời gian, đặc biệt là các thẻ first edition hoặc thẻ giới hạn. Việc đầu tư vào thẻ Pokemon đòi hỏi kiến thức về thị trường và khả năng nhận biết thẻ chất lượng cao.",
-        tags: ["pokemon", "đầu tư", "sưu tập"],
-        datePublished: "2024-08-10",
-        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        title: "Khám phá thẻ cầu thủ bóng đá",
+        image: "/blog-images/6-1.jpg",
+        content: "Thẻ cầu thủ bóng đá là một trong những dòng thẻ sưu tầm hot nhất tại Cardsdiverse. Hãy cùng khám phá các bộ sưu tập thẻ của các danh thủ hàng đầu thế giới!",
+        tags: ["thẻ cầu thủ", "sưu tầm", "bóng đá"]
       },
       {
-        id: 102,
-        title: "Cộng đồng sôi động",
-        content: "Sưu tập thẻ Pokemon giúp bạn tham gia vào một cộng đồng năng động của những người có cùng sở thích. Bạn có thể tham gia các hội nhóm, sự kiện trao đổi thẻ, và giải đấu Pokemon TCG, mở rộng mối quan hệ và học hỏi từ những người chơi khác.",
-        tags: [],
-        datePublished: "",
-        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
+        title: "Cách mua thẻ cầu thủ bóng đá tại Cardsdiverse",
+        image: "/blog-images/3-1.jpg",
+        content: "Hãy nhắn tin trực tiếp cho chúng tôi để cập nhật danh sách thẻ mới nhất và đặt hàng nhanh chóng!",
+        tags: ["mua thẻ", "hướng dẫn", "bóng đá"]
+      },
+      {
+        title: "Sneak peek stock thẻ cầu thủ bóng đá của shop",
+        image: "/blog-images/6-1.jpg",
+        content: "🫣 👀 Sneak peek stock thẻ cầu thủ bóng đá của shop✨⚽️\n🃏Các loại thẻ bên shop có thể được bán theo hình thức túi mù với giá niêm yết hoặc mua lẻ theo inbox thương lượng giá cả tuỳ ý khách nhé!❤️🛍️\n📩Follow page chúng mình để cập nhật thông tin các loại card (Pokemon (JP/Eng), cầu thủ bóng đá, K-pop, etc) cũng như túi mù mới nhất❤️\n🛒➡️ Link website đặt mua hàng coming soon!",
+        tags: ["thẻ cầu thủ", "sưu tầm", "túi mù", "bóng đá", "shop"]
       }
     ]
   },
   {
     id: 2,
-    name: "Hướng dẫn mở thẻ bài mù (Blind Pack) an toàn và hiệu quả",
-    description: "Mở thẻ bài mù là một trải nghiệm thú vị nhưng cũng cần kỹ năng để tránh làm hỏng thẻ quý giá bên trong. Bài viết này sẽ hướng dẫn bạn cách mở thẻ mù một cách chuyên nghiệp.",
-    author: "Bob Sun",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
-    createdDate: "2024-02-20",
+    name: "Thẻ Naruto chính hãng Kayou Nhật Bản!",
+    description:
+      "Yo các nhẫn giả! 🌀🔥 Chào mừng bạn đến với thế giới của những chiếc card Naruto chính hãng Kayou Nhật Bản! Hãy sở hữu ngay những tấm thẻ khắc họa các trận chiến kinh điển và khoảnh khắc cảm động của Naruto, Sasuke, Kakashi và đồng đội!",
+    author: "Cardsdiverse Team",
+    image: "/blog-images/5-1.jpg",
+    createdDate: "2024-02-10",
     posts: [
       {
-        id: 201,
-        title: "Chuẩn bị dụng cụ",
-        content: "Để mở thẻ mù an toàn, bạn cần chuẩn bị: găng tay không bụi, kéo sắc nhọn hoặc dao rọc chuyên dụng, và bề mặt sạch sẽ để làm việc. Việc sử dụng găng tay giúp tránh dấu vân tay trên thẻ, đặc biệt quan trọng với thẻ có giá trị cao.",
-        tags: [],
-        datePublished: "2024-07-22",
-        image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+        title: "Giới thiệu thẻ Naruto Kayou",
+        image: "/blog-images/3-2.jpg",
+        content: "Những thẻ bài Naruto chính hãng từ Kayou mang đến hình ảnh sắc nét và nội dung hấp dẫn, tái hiện những trận đấu kinh điển trong thế giới nhẫn giả.",
+        tags: ["Naruto", "thẻ bài", "Kayou"]
+      },
+      {
+        title: "Cách mua thẻ Naruto tại Cardsdiverse",
+        image: "/blog-images/5-1.jpg",
+        content: "Inbox ngay để đặt hàng những thẻ Naruto hot nhất với giá ưu đãi!",
+        tags: ["mua thẻ", "Naruto", "ưu đãi"]
       }
     ]
   },
   {
     id: 3,
-    name: "Thẻ cầu thủ bóng đá - Hướng dẫn sưu tập cho người mới",
-    description: "Sưu tập thẻ cầu thủ bóng đá là một sở thích phổ biến trên toàn thế giới. Từ thẻ Panini World Cup đến các bộ thẻ giải đấu, mỗi tấm thẻ đều mang một giá trị và câu chuyện riêng.",
-    author: "Clara Rivers",
-    image: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
-    createdDate: "2024-03-15",
+    name: "Cards Diverse – Khám phá thế giới Pokémon cùng bạn!",
+    description:
+      "🎉 Bạn là fan của Pokémon? Đừng bỏ lỡ cơ hội sở hữu những thẻ bài Pokémon độc đáo tại Cards Diverse! 🃏✨ Chúng tôi chuyên bán thẻ Pokémon second-hand chất lượng tốt với nhiều lựa chọn hấp dẫn từ Nhật và Anh!",
+    author: "Cardsdiverse Team",
+    image: "/blog-images/4-1.jpg",
+    createdDate: "2024-03-05",
     posts: [
       {
-        id: 301,
-        title: "Lựa chọn bộ sưu tập",
-        content: "Có nhiều loại thẻ cầu thủ để sưu tập: thẻ World Cup, Champions League, các giải đấu quốc gia. Người mới nên bắt đầu với một bộ sưu tập cụ thể và dần mở rộng theo sở thích. Thẻ Panini là thương hiệu phổ biến và đáng tin cậy để bắt đầu.",
-        tags: [],
-        datePublished: "2024-09-05",
-        image: "https://images.unsplash.com/photo-1510051640316-cee39563ddab?w=800&auto=format&fit=crop",
+        title: "Thẻ Pokémon là gì?",
+        image: "/blog-images/2-1.jpg",
+        content: "Thẻ Pokémon (Pokémon Trading Card Game – TCG) là trò chơi thẻ bài chiến thuật nổi tiếng dựa trên loạt phim hoạt hình Pokémon huyền thoại. Kể từ khi ra mắt vào năm 1996, trò chơi này đã thu hút hàng triệu fan trên toàn thế giới! 🌎🔥",
+        tags: ["Pokémon", "TCG", "sưu tầm"]
       }
     ]
   },
   {
     id: 4,
-    name: "Bảo quản thẻ bài đúng cách - Giữ gìn giá trị lâu dài",
-    description: "Bảo quản thẻ bài đúng cách là yếu tố quan trọng để duy trì giá trị của bộ sưu tập. Từ sleeve bảo vệ đến điều kiện môi trường, mọi chi tiết đều quan trọng.",
-    author: "David Bloom",
-    image: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=800&auto=format&fit=crop",
-    createdDate: "2024-04-10",
+    name: "Sneak peek stock thẻ cầu thủ bóng đá của shop",
+    description:
+      "🫣 👀 Sneak peek stock thẻ cầu thủ bóng đá của shop✨⚽️",
+    author: "Cardsdiverse Team",
+    image: "/blog-images/1-1.jpg",
+    createdDate: "2024-04-01",
     posts: [
       {
-        id: 401,
-        title: "Dụng cụ bảo quản cần thiết",
-        content: "Để bảo quản thẻ tốt nhất, bạn cần: Penny sleeve để bảo vệ bề mặt thẻ, top loader cứng để chống va đập, và album chuyên dụng có độ pH trung tính. Với thẻ có giá trị cao, nên cân nhắc sử dụng dịch vụ grading để xác định độ hiếm và bảo vệ thẻ.",
-        tags: ["bảo quản", "sưu tập", "đầu tư"],
-        datePublished: "2024-06-30",
-        image: "https://images.unsplash.com/photo-1529480816714-c8cb4ac54184?w=800&auto=format&fit=crop",
+        title: "Sneak peek stock thẻ cầu thủ bóng đá của shop",
+        image: "/blog-images/1-2.jpg",
+        content: "🫣 👀 Sneak peek stock thẻ cầu thủ bóng đá của shop✨⚽️\n🃏Các loại thẻ bên shop có thể được bán theo hình thức túi mù với giá niêm yết hoặc mua lẻ theo inbox thương lượng giá cả tuỳ ý khách nhé!❤️🛍️\n📩Follow page chúng mình để cập nhật thông tin các loại card (Pokemon (JP/Eng), cầu thủ bóng đá, K-pop, etc) cũng như túi mù mới nhất❤️\n🛒➡️ Link website đặt mua hàng coming soon!",
+        tags: ["thẻ cầu thủ", "sưu tầm", "túi mù", "bóng đá", "shop"]
+      }
+    ]
+  },
+  {
+    id: 5,
+    name: "Yu-Gi-Oh! – Trận đấu của những Pharaoh!",
+    description:
+      "🔥 Hãy trải nghiệm những trận đấu bài hấp dẫn với bộ thẻ Yu-Gi-Oh! huyền thoại. Sẵn sàng triệu hồi Rồng Trắng Mắt Xanh chưa? 🐉",
+    author: "Cardsdiverse Team",
+    image: "/blog-images/2-2.jpg",
+    createdDate: "2024-05-10",
+    posts: [
+      {
+        title: "Tại sao thẻ Yu-Gi-Oh! hấp dẫn?",
+        image: "/blog-images/1-2.jpg",
+        content: "Yu-Gi-Oh! không chỉ là trò chơi mà còn là biểu tượng của tuổi thơ!",
+        tags: ["Yu-Gi-Oh!", "sưu tầm", "trận đấu"]
       }
     ]
   }

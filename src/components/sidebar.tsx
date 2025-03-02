@@ -32,11 +32,11 @@ const sidebarItems: SidebarItems = {
       icon: ShoppingCart,
       label: "Đơn Hàng",
     },
-    {
-      href: "/admin/customs",
-      icon: List,
-      label: "Sản Phẩm Tùy Chỉnh",
-    },
+    // {
+    //   href: "/admin/customs",
+    //   icon: List,
+    //   label: "Sản Phẩm Tùy Chỉnh",
+    // },
     {
       href: "/admin/products",
       icon: Package,

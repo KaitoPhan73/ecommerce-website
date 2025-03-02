@@ -81,10 +81,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_j5fnr88",
-        "template_q0zq2yq",
+        "service_j5fnr88", //serviceId
+        "template_q0zq2yq", //template
         ref.current,
-        "KAuZZSUdJRD4-yrmz"
+        "KAuZZSUdJRD4-yrmz" //public key
       )
       .then(
         (result) => {
