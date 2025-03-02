@@ -47,7 +47,7 @@ const BlogDetail = ({ params }: { params: { id: string } }) => {
           {/* Render các posts */}
           <div className="my-16">
             {blog.posts.map((post, index) => (
-              <div key={post.id} className="">
+              <div key={post.title} className="">
                 <h3 className="text-xl font-bold my-4">
                   {index + 1}. {post.title}
                 </h3>
