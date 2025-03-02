@@ -81,8 +81,8 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_j5fnr88", //serviceId
-        "template_q0zq2yq", //template
+        "service_q4hjhe9", //serviceId
+        "template_0szwhbn", //template
         ref.current,
         "KAuZZSUdJRD4-yrmz" //public key
       )
