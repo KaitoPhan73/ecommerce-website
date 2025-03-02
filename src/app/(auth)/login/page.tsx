@@ -33,7 +33,7 @@ export default function AuthenticationPage() {
         <div className="relative hidden h-full flex-col bg-muted p-10 text-white dark:border-r lg:flex">
           <div className="absolute inset-0">
             <Image
-              src="/images/auth.jpg"
+              src="/card/card_bg.png"
               alt="Image"
               layout="fill"
               objectFit="cover"
@@ -47,7 +47,7 @@ export default function AuthenticationPage() {
               <div>
                 <Image
                   priority
-                  src="/svgs/kalban-logo.svg"
+                  src="/card/logo.png"
                   height={96}
                   width={96}
                   alt="Kalban-logo"

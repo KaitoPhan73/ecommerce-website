@@ -45,7 +45,7 @@ export default function RegisterPage() {
               <div>
                 <Image
                   priority
-                  src="/svgs/kalban-logo.svg"
+                  src="/card/logo.png"
                   height={96}
                   width={96}
                   alt="Kalban-logo"
