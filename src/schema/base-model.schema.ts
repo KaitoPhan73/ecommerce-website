@@ -13,6 +13,7 @@ export const BaseModelResponseSchema = z.object({
   basePrice: z.number().min(0, { message: "Giá không hợp lệ." }),
   customizationOptions: z.array(z.any()),
   products: z.array(z.any()),
+  categoryId: z.string().uuid(),
 });
 
 export const CreateBaseModelSchema = z.object({

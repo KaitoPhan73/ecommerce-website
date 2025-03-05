@@ -14,7 +14,6 @@ import { TTableResponse } from "@/types/Table";
 const getAllOrders = async (params?: any) => {
   const response = await httpBag.get<TTableResponse<TOrderResponse>>("/order", {
     params,
-    next: { tags: ["orders"] },
   });
   return response;
 };
@@ -24,7 +23,6 @@ const getPieChartOrderStatus = async (params?: any) => {
     "/order/get-pie-chart",
     {
       params,
-      next: { tags: ["orders"] },
     }
   );
   return response;
@@ -35,7 +33,6 @@ const getPieChartStatus = async (params?: any) => {
     "/order/get-pie-chartStatus",
     {
       params,
-      next: { tags: ["orders"] },
     }
   );
   return response;
@@ -44,7 +41,6 @@ const getPieChartStatus = async (params?: any) => {
 const getLineChartOrders = async (params?: any) => {
   const response = await httpBag.get<TLineChartOrder[]>("/order/line-chart", {
     params,
-    next: { tags: ["orders"] },
   });
   return response;
 };
@@ -60,7 +56,6 @@ const getOrdersByUserId = async (userId: string, param?: any) => {
     `/order/user/${userId}`,
     {
       params: param,
-      next: { tags: ["orders"] },
     }
   );
   return response;

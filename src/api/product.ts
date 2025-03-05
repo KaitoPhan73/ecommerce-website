@@ -13,7 +13,6 @@ const getAllProducts = async (params?: any) => {
     "/product",
     {
       params,
-      next: { tags: ["products"] },
     }
   );
   return response;
@@ -21,7 +20,6 @@ const getAllProducts = async (params?: any) => {
 
 const getProductById = async (id: string) => {
   return await httpBag.get<TProductResponse>(`/product/${id}`, {
-    next: { tags: ["products"] },
   });
 };
 
@@ -30,7 +28,6 @@ const getAllProductsActive = async (params?: any) => {
     `/product/product-status-active`,
     {
       params,
-      next: { tags: ["products-active"] },
     }
   );
   return response;
@@ -41,7 +38,6 @@ const getAllProductsForUser = async (params?: any) => {
     `/product/for-user`,
     {
       params,
-      next: { tags: ["products-active"] },
     }
   );
   return response;
