@@ -88,7 +88,8 @@ const createHttpClient = (defaultBaseUrl: string) => {
         options?.body instanceof FormData
           ? options.body
           : JSON.stringify(options?.body),
-      next: options?.next,
+      // next: options?.next,
+      cache: "no-cache",
     };
     console.log("config", config);
     try {

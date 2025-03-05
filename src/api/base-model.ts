@@ -10,7 +10,6 @@ import { TTableResponse } from "@/types/Table";
 const getAllBaseModels = async (params?: any) => {
   return await httpBag.get<TTableResponse<TBaseModelResponse>>(`/base-model`, {
     params,
-    next: { tags: ["base-models"] },
   });
 };
 
@@ -20,7 +19,6 @@ const getAllBaseModelsActive = async (params?: any) => {
     `/base-model/base-model-status-active`,
     {
       params,
-      next: { tags: ["base-models-active"] },
     }
   );
 };

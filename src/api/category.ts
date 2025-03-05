@@ -20,7 +20,6 @@ const getAllCategoriesActive = async (params?: any) => {
     `/category/category-status-active`,
     {
       params,
-      next: { tags: ["categories-active"] },
     }
   );
 };
@@ -28,7 +27,6 @@ const getAllCategoriesActive = async (params?: any) => {
 // Lấy Category theo ID
 const getCategoryById = async (id: string) => {
   return await httpBag.get<TCategoryResponse>(`/category/${id}`, {
-    next: { tags: ["categories"] },
   });
 };
 

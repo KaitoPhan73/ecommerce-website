@@ -9,7 +9,6 @@ export const getAllOptions = async (params?: any) => {
     "/customization-option",
     {
       params,
-      next: { tags: ["options"] },
     }
   );
   return response;

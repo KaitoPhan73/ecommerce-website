@@ -49,13 +49,17 @@ export function FormUpdateBaseModel({
 }: FormUpdateBaseModelProps) {
   const [isLoading, setIsLoading] = React.useState<boolean>(false);
   const { toast } = useToast();
+  console.log("🚀 ~ initialData:", initialData)
 
   const [info, setInfo] = React.useState<any>(null);
 
   const form = useForm<TUpdateBaseModelRequest>({
     resolver: zodResolver(UpdateBaseModelSchema),
-    defaultValues: initialData,
-  });
+    defaultValues: {
+      ...initialData,
+      categoryID: categories?.find((item) => item.id === initialData.categoryId)?.id || "",
+    }
+      });
   React.useEffect(() => {
     if (info?.url) {
       form.setValue("image", info.url);
