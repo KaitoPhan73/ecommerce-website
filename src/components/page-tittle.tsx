@@ -11,7 +11,7 @@ const PageTitle = ({ title }: Props) => {
     <Card className="relative hidden md:flex items-center justify-center min-h-80 rounded-none overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="/images/background-page-title.jpg"
+          src="/card/card_bg.png"
           alt="Background"
           layout="fill"
           objectFit="fill"

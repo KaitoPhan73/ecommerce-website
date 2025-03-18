@@ -32,7 +32,7 @@ const Footer = () => {
           <ul>
             <li className="flex gap-2 items-center mb-2">
               <FaPhoneAlt className="h-6 w-6 text-green-400" />
-              <p className="text-gray-600 dark:text-white">0976-325-953</p>
+              <p className="text-gray-600 dark:text-white">0353-110-527</p>
             </li>
             <li className="flex gap-2 items-center mb-2">
               <GrMapLocation className="h-8 w-8 text-green-400" />
@@ -69,21 +69,21 @@ const Footer = () => {
             >
               <FaFacebook />
             </a>
-            <a
+            {/* <a
               href="https://www.instagram.com/kalban.624/?fbclid=IwY2xjawFx2qFleHRuA2FlbQIxMAABHbTokm91AZa7HpbkaMYpn52MFw5wdRxgmHdBVAXnBjZp8U_KKobcOJ21RQ_aem_dCDc4G3ARtkxdm7EWD3wVw"
               className="text-pink-700 hover:text-pink-500"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaInstagram />
-            </a>
+            </a> */}
           </div>
         </div>
       
       </div>
       <div className="text-center border-t border-black py-8">
         <p>
-          &copy; 2024 Khám Phá Các Mẫu Túi Có Sẵn Và Tự Lên Ý Tưởng. Sáng Tạo
+          &copy; 2024 Khám Phá Các Mẫu Thẻ Có Sẵn 
           Nào!
         </p>
       </div>

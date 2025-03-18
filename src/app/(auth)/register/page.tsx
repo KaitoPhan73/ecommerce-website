@@ -31,7 +31,7 @@ export default function RegisterPage() {
         <div className="relative hidden h-full flex-col bg-muted p-10 text-white dark:border-r lg:flex">
           <div className="absolute inset-0">
             <Image
-              src="/images/auth.jpg"
+              src="/card/card_bg.png"
               alt="Image"
               layout="fill"
               objectFit="cover"
@@ -54,7 +54,7 @@ export default function RegisterPage() {
 
               <h1 className="text-2xl font-semibold tracking-tight">Đăng ký</h1>
               <p className="text-sm text-muted-foreground">
-                Chào mừng bạn đến với Green Bag
+                Chào mừng bạn đến với Card Diverse
               </p>
             </div>
             <UserRegisterForm />
