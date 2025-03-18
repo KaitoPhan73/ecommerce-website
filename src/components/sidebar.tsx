@@ -44,14 +44,14 @@ const sidebarItems: SidebarItems = {
     },
     {
       href: "/admin/base-models",
-      icon: Package,
-      label: "Sản Phẩm Gốc",
-    },
-    {
-      href: "/admin/categories",
       icon: ChartBarStacked,
       label: "Phân Loại",
     },
+    // {
+    //   href: "/admin/categories",
+    //   icon: ChartBarStacked,
+    //   label: "Phân Loại",
+    // },
   ],
   extras: (
     <div className="flex flex-col gap-2">

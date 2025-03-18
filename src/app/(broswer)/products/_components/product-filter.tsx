@@ -111,7 +111,6 @@ const ProductFilter = ({ params, dataBaseModelSource }: Props) => {
                 name="baseModelId"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Email</FormLabel>
                     <Select
                       onValueChange={field.onChange}
                       defaultValue={field.value}
