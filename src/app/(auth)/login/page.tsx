@@ -47,7 +47,7 @@ export default function AuthenticationPage() {
               <div>
                 <Image
                   priority
-                  src="/card/logo.png"
+                  src="/card/card_logo.png"
                   height={96}
                   width={96}
                   alt="Kalban-logo"

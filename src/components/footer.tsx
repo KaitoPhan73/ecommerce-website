@@ -98,8 +98,8 @@ function Icon(props: any) {
       <Image
         priority
         src="/card/logo.png"
-        height={32}
-        width={32}
+        height={3200}
+        width={3200}
         alt="Kalban-logo"
         {...props}
       />

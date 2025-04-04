@@ -106,18 +106,16 @@ function Icon(props: any) {
       <Image
         priority
         src="/card/logo.png"
-        height={0}
-        width={0}
+        height={700}
+        width={100}
         alt="CARD-DIVERSE-logo"
+        style={{ objectFit: "contain" }} // Ensures the image fits without stretching
         {...props}
-        style={{ filter: "brightness(0.8) contrast(1)" }} // Điều chỉnh giá trị phù hợ
       />
       <p className="text-lg font-semibold lig">CARD DIVERSE</p>
-      {/* </Link> */}
     </div>
   );
 }
-
 function XIcon(props: any) {
   return (
     <svg
